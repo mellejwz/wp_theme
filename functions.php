@@ -1,7 +1,5 @@
 <?php
-	// menu registratie
 	register_nav_menu( "hoofdmenu", "Het hoofdmenu" );
-	// sidebar registratie
 	register_sidebar( array(
 		'name' => 'Hoofd Sidebar',
 		'id' => 'sidebar-1',
