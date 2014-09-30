@@ -19,7 +19,7 @@ html, body{
 }
 #logo{
 	margin: 5px 5px 0px 0px;
-	background-image: url('img/logo_medium.png');
+	background-image: url('../img/logo_medium.png');
 	width: 50px;
 	height: 50px;
 	border: none;
@@ -69,6 +69,8 @@ html, body{
 #content{
 	padding: 1%;
 	position: absolute;
+	left: 0;
+	right: 0;
 	top: 60px;
 	bottom: 0;
 	overflow: auto;
@@ -86,7 +88,6 @@ html, body{
 	overflow-y: auto;
 }
 .widget{
-	height: 100px;
 	margin: 1px;
 	padding: 2px;
 	background-color: rgba(3, 3, 3, 0.1);
