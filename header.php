@@ -3,11 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-ui.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/script.js"></script>
 	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" media="screen and (max-width: 480px)" href="small.css" />
-	<link rel="stylesheet" media="screen and (min-width: 480px) and (max-width:768px)" href="medium.css" />
-	<link rel="stylesheet" media="screen and (min-width: 768px)" href="normal.css" />
 	<title><?php bloginfo('name'); ?></title>
 	<?php wp_head(); ?>
 </head>

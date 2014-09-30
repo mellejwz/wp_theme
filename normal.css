@@ -10,8 +10,7 @@ html, body{
 }
 /*hide elements not relevant for current mode*/
 .mobile_menu-button{
-	position: absolute;
-	top: -50px;
+	display: none;
 }
 .mobile_menu-button_clicked{
 	position: absolute;

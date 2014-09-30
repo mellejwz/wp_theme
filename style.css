@@ -10,3 +10,308 @@ Een vrij simpele responsive thema
 }@-ms-viewport{
     width: device-width;
 }
+@media screen and (min-width: 769px){
+	html, body{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		background-image: url('ksp.png');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	/*hide elements not relevant for current mode*/
+	.mobile_menu-button{
+		position: absolute;
+		top: -50px;
+	}
+	.mobile_menu-button_clicked{
+		position: absolute;
+		top: -50px;
+	}
+	/*container for all the elements*/
+	#container{
+		width: 75%;
+		height: 100%;
+		margin: 0 auto;
+		position: relative;
+	}
+	/*header and menu*/
+	#header{
+		width: 100%;
+		height: 120px;
+		margin: 0 0 10px 0;
+		position: relative;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+	#header img{
+		margin: 0 10px 0 0;
+		background-image: url('logo.png');
+		width: 75px;
+		height: 75px;
+		margin: 0;
+		padding: 0;
+	}
+	#header h1{
+		display: inline-block;
+		margin: 0 0 0 10px;
+	}
+	#header ul{
+		position: absolute;
+		bottom: 0;
+		padding: 0;
+		margin: 0;
+	}
+	#header ul li{
+		height: 26px;
+		padding: 2px;
+		margin: 0;
+		display: inline-block;
+		cursor: pointer;
+		font-weight: bold;
+		text-decoration: none;
+		transition: 0.3s;
+	}
+	#header ul li:hover{
+		background-color: rgba(200, 200, 200, 0.5);
+		transition: 0.5s;
+	}
+	/*content*/
+	#content{
+		position: absolute;
+		left: 0;
+		right: 225px;
+		top: 125px;
+		bottom: 45px;
+		overflow: auto;
+		padding: 1%;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+	/*widgets*/
+	#sidebar{
+		width: 220px;
+		position: absolute;
+		right: 0;
+		top: 125px;
+		bottom: 45px;
+		right: 0;
+		overflow: auto;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+	.widget{
+		height: 100px;
+		border: 2px solid #000;
+		margin-bottom: 1px;
+	}
+	#footer{
+		width: 100%;
+		height: 40px;
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	html, body{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		background-image: url('ksp.png');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	/*hide elements not relevant for current mode*/
+	.mobile_menu-button{
+		position: absolute;
+		top: -50px;
+	}
+	.mobile_menu-button_clicked{
+		position: absolute;
+		top: -50px;
+	}
+	/*container for all the elements*/
+	#container{
+		width: 90%;
+		height: 100%;
+		margin: 0 auto;
+		position: relative;
+	}
+	/*header and menu*/
+	#header{
+		width: 100%;
+		height: 120px;
+		margin: 0 0 10px 0;
+		position: relative;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+	#header img{
+		margin: 0 10px 0 0;
+		background-image: url('logo.png');
+		width: 75px;
+		height: 75px;
+		margin: 0;
+		padding: 0;
+	}
+	#header h1{
+		display: inline-block;
+		margin: 0 0 0 10px;
+	}
+	#header ul{
+		position: absolute;
+		bottom: 0;
+		padding: 0;
+		margin: 0;
+	}
+	#header ul li{
+		height: 26px;
+		padding: 2px;
+		margin: 0;
+		display: inline-block;
+		cursor: pointer;
+		font-weight: bold;
+		text-decoration: none;
+		transition: 0.3s;
+	}
+	#header ul li:hover{
+		background-color: rgba(200, 200, 200, 0.5);
+		transition: 0.5s;
+	}
+	/*content*/
+	#content{
+		position: absolute;
+		left: 0;
+		right: 225px;
+		top: 125px;
+		bottom: 45px;
+		overflow: auto;
+		padding: 1%;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+	/*widgets*/
+	#sidebar{
+		width: 220px;
+		position: absolute;
+		right: 0;
+		top: 125px;
+		bottom: 45px;
+		right: 0;
+		overflow: auto;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+	.widget{
+		height: 100px;
+		border: 2px solid #000;
+		margin-bottom: 1px;
+	}
+	#footer{
+		width: 100%;
+		height: 40px;
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(200, 200, 200, 0.5);
+	}
+}
+
+@media screen and (max-width: 480px){
+	html, body{
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+
+	#container{
+		width: 100%;
+		min-height: 100%;
+		position: absolute;
+		left: 0;
+		background-color: white;
+		box-shadow: 0 0 20px 0px #000;
+	}
+	#header{
+		width: 100%;
+		height: 60px;
+		background-color: rgba(3, 3, 3, 0.1);
+	}
+	#logo{
+		margin: 5px 5px 0px 0px;
+		background-image: url('logo_medium.png');
+		width: 50px;
+		height: 50px;
+		border: none;
+		position: absolute;
+		right: 0px;
+	}
+	#header h1{
+		display: none;
+	}
+	.mobile_menu-button{
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		font-size: 40px;
+		color: #333;
+		padding: 5px;
+	}
+	.mobile_menu-button_clicked{
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		font-size: 40px;
+		padding: 5px;
+	}
+	#header ul{
+		width: 50%;
+		height: 50%;
+		padding: 0;
+		margin: 0;
+		background-color: rgba(3, 3, 3, 0.1);
+		position: fixed;
+		top: 0;
+		left: 0;
+		overflow-y: auto;
+		z-index: -10;
+	}
+	#header ul li{
+		height: 26px;
+		padding: 0;
+		margin: 0px 5px 0px 5px;
+		display: block;
+		cursor: pointer;
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#content{
+		padding: 1%;
+		position: absolute;
+		top: 60px;
+		bottom: 0;
+		overflow: auto;
+	}
+	#sidebar{
+		width: 50%;
+		height: 50%;
+		padding: 0;
+		margin: 0;
+		position: fixed;
+		background-color: rgba(3, 3, 3, 0.1);
+		left: 0;
+		bottom: 0;
+		z-index: -10;
+		overflow-y: auto;
+	}
+	.widget{
+		height: 100px;
+		margin: 1px;
+		padding: 2px;
+		background-color: rgba(3, 3, 3, 0.1);
+	}
+}
+#footer{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(200, 200, 200, 0.5);
+}
