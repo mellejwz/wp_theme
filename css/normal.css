@@ -59,6 +59,11 @@ html, body{
 	font-weight: bold;
 	transition: 0.3s;
 }
+#header ul li a{
+	color: #000;
+	margin: 0 5px 0 0;
+	text-decoration: none;
+}
 #header ul li:hover{
 	background-color: rgba(200, 200, 200, 0.5);
 	transition: 0.5s;

@@ -10,5 +10,4 @@
 		'after_title' => '</h3>',
 	) );
 	wp_enqueue_style( 'simple_theme-style', get_stylesheet_uri() );
-
 ?>

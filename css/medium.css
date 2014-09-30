@@ -61,6 +61,8 @@ html, body{
 	transition: 0.3s;
 }
 #header ul li a{
+	color: #000;
+	margin: 0 5px 0 0;
 	text-decoration: none;
 }
 #header ul li:hover{

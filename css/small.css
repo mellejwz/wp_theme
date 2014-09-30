@@ -1,4 +1,5 @@
 html, body{
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -57,17 +58,20 @@ html, body{
 	z-index: -10;
 }
 #header ul li{
-	height: 26px;
-	padding: 0;
-	margin: 0px 5px 0px 5px;
+	padding: 0 0 0 5px;
+	margin: 0 0 5px 0;
 	display: block;
 	cursor: pointer;
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
+	background-color: rgba(200, 200, 200, 0.5);
 }
 #header ul li a{
+	color: #000;
+	margin: 0 5px 0 0;
 	text-decoration: none;
+
 }
 #content{
 	padding: 1%;
