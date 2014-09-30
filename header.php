@@ -6,7 +6,6 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-ui.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/script.js"></script>
-	<link rel="stylesheet" href="style.css" />
 	<title><?php bloginfo('name'); ?></title>
 	<?php wp_head(); ?>
 </head>
