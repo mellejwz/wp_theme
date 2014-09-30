@@ -57,7 +57,6 @@ html, body{
 	display: inline-block;
 	cursor: pointer;
 	font-weight: bold;
-	text-decoration: none;
 	transition: 0.3s;
 }
 #header ul li:hover{
