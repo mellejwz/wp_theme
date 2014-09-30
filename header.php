@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-ui.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-ui.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/script.js"></script>
 	<link rel="stylesheet" href="style.css" />
 	<title><?php bloginfo('name'); ?></title>

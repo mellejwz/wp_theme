@@ -15,7 +15,6 @@ Een vrij simpele responsive thema
 		margin: 0;
 		padding: 0;
 		height: 100%;
-		overflow: auto;
 		background-image: url('ksp.png');
 		background-size: cover;
 		background-position: center;
@@ -117,7 +116,6 @@ Een vrij simpele responsive thema
 		margin: 0;
 		padding: 0;
 		height: 100%;
-		overflow: auto;
 		background-image: url('ksp.png');
 		background-size: cover;
 		background-position: center;
@@ -219,13 +217,14 @@ Een vrij simpele responsive thema
 	html, body{
 		margin: 0;
 		padding: 0;
-		overflow: auto;
+		overflow-x: hidden;
 	}
 
 	#container{
 		width: 100%;
 		min-height: 100%;
 		position: absolute;
+		left: 0;
 		background-color: white;
 		box-shadow: 0 0 20px 0px #000;
 	}
