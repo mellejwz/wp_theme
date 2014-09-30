@@ -7,3 +7,11 @@ Author: Melle Zwerver
 Tags: ksp, kerbal, space, program, responsive, clean
 Een vrij simpele responsive thema
 */
+@-ms-viewport { width: device-width; }
+#footer{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(200, 200, 200, 0.5);
+}
