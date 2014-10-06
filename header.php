@@ -6,8 +6,8 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-ui.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
-	<link rel="stylesheet" media="screen and (min-width: 721px)" href="<?php bloginfo('template_url'); ?>/css/normal.css" />
-	<link rel="stylesheet" media="screen and (max-width: 720px)" href="<?php bloginfo('template_url'); ?>/css/small.css" />
+	<link rel="stylesheet" media="screen and (min-width: 721px)" href="<?php bloginfo('template_directory'); ?>/css/normal.css" />
+	<link rel="stylesheet" media="screen and (max-width: 720px)" href="<?php bloginfo('template_directory'); ?>/css/small.css" />
 	<title><?php bloginfo('name'); ?></title>
 	<?php wp_head(); ?>
 </head>

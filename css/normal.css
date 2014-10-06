@@ -6,6 +6,7 @@ html, body{
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	overflow: hidden;
 }
 /*hide elements not relevant for current mode*/
 .mobile_menu-button{
@@ -78,6 +79,17 @@ html, body{
 	overflow: auto;
 	padding: 1%;
 	background-color: rgba(200, 200, 200, 0.5);
+}
+#respond{
+	margin: 0;
+	padding: 10px;
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	border-top: 2px dotted black;
+}
+#comments{
+	border-top: 2px dotted black;
 }
 /*widgets*/
 #sidebar{
